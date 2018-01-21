@@ -1,0 +1,14 @@
+<div class="mdl-grid">
+        <br>
+        <div>Current Count: {{ counter | async }}</div>
+        <br>
+        <div class="mdl-cell mdl-cell--3-col">
+            <br>
+            <br>
+        </div>
+        <div class="mdl-cell mdl-cell--9-col">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" (click)="increment()">Increment</button>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" (click)="decrement()">Decrement</button>
+        
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored" (click)="reset()">Reset Counter</button>
+</div>
